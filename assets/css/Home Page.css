@@ -1,0 +1,137 @@
+* {
+  margin:0;
+  padding:0;  
+}
+
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #ffef96;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color:#50394c;
+}
+
+
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #b2b2b2;
+  color: #4F4846;
+}
+
+
+main {
+  padding: 60px 0;
+}
+
+
+/* My Name & Contact Me Text */
+h1,
+h2 {
+  margin: 20px;
+}
+
+
+/* Navigation Bar dimensions */
+.text-left {
+  text-align: left;
+}
+
+
+/* navigation links & contact form txts*/
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+
+/* Text in the navigation bar */
+a {
+  text-decoration: none;
+  color: #f4e1d2;
+}
+
+
+/* My Pic and My Captions */
+figure {
+  margin-bottom: 40px;
+}
+
+
+/* My Pic Only */
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+
+/* Contact Me Page section */
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #DDAF94;
+  background-color:  #E8CEBF;
+}
+
+
+/* details of contact me section */
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+
+/* Name, Email, Send Buttons */
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+
+/* where users type their contact info */
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+
+/* Contact me, send, footer text */
+.text-center {
+  text-align: center;
+}
+
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
